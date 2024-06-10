@@ -1,0 +1,24 @@
+This is GPL software. Do with it as you want, but feed us back any improvements.
+
+This is a full C# classes to control a PELCO PTZ cameras, matrix switching systems, 
+reciever devices and more via RS422/485 'P' and 'D' protocol. 
+It supports all of the commands including UP, DOWN, IN, OUT, LEFT,
+RIGHT, NEAR, FAR, as well as other extended commands. 
+
+To use this, you need to put a RS232->RS422 adapter on the output
+of your desired serial port.  
+
+The Pelco doesn't return ANY usefull info back, so you only really need 2-wire support 
+(one way) communications out.  However, I advice to read it in order to know if the command 
+was recieved by the device
+
+
+Have fun.
+
+
+Tamir Khason
+Want dot.NET? Just ask
+"Please www.dotNET.us"
+TEL/FAX +972-50-8555536
+www.khason.biz
+tamir@khason.biz
